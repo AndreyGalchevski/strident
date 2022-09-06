@@ -1,0 +1,103 @@
+export interface Merchandise {
+  name: string;
+  type: "Digital album" | "CD" | "T-shirt" | "Girls T-shirt" | "Patch";
+  price: number;
+  url: string;
+  image: string;
+  imageNG: string;
+}
+
+const merchandises: Array<Merchandise> = [
+  {
+    name: "March Of Plague",
+    type: "Digital album",
+    price: 7,
+    url: "https://stridentthrash.bandcamp.com/album/march-of-plague",
+    image:
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1574771723/strident/merchandises/production/March%20Of%20Plague-Digital%20Album.jpg",
+    imageNG:
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1574771724/strident/merchandises/production/March%20Of%20Plague-Digital%20Album_ng.webp",
+  },
+  {
+    name: "March Of Plague",
+    type: "CD",
+    price: 16,
+    url: "https://stridentthrash.bandcamp.com/album/march-of-plague",
+    image:
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1577700237/strident/merchandises/production/March%20Of%20Plague-CD.jpg",
+    imageNG:
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1577700238/strident/merchandises/production/March%20Of%20Plague-CD_ng.webp",
+  },
+  {
+    name: "On The Aim",
+    type: "Digital album",
+    price: 4,
+    url: "https://stridentthrash.bandcamp.com/album/on-the-aim",
+    image:
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1577700537/strident/merchandises/production/On%20The%20Aim-Digital%20album.jpg",
+    imageNG:
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1577700538/strident/merchandises/production/On%20The%20Aim-Digital%20album_ng.webp",
+  },
+  {
+    name: "On The Aim",
+    type: "CD",
+    price: 13.5,
+    url: "https://stridentthrash.bandcamp.com/album/on-the-aim",
+    image:
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1577700588/strident/merchandises/production/On%20The%20Aim-CD.jpg",
+    imageNG:
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1577700589/strident/merchandises/production/On%20The%20Aim-CD_ng.webp",
+  },
+  {
+    name: "March Of Plague (Two sided)",
+    type: "T-shirt",
+    price: 20,
+    url: "https://stridentthrash.bandcamp.com/merch/mans-two-sided-print-t-shirt-weeder-new-design",
+    image:
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1577700792/strident/merchandises/production/March%20Of%20Plague%20man%27s%20two%20sided%20print-t-shirt.jpg",
+    imageNG:
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1577700793/strident/merchandises/production/March%20Of%20Plague%20man%27s%20two%20sided%20print-t-shirt_ng.webp",
+  },
+  {
+    name: "March Of Plague (Two sided)",
+    type: "Girls T-shirt",
+    price: 20,
+    url: "https://stridentthrash.bandcamp.com/merch/womans-two-sided-print-t-shirt-weeder-new-design",
+    image:
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1577701565/strident/merchandises/production/March%20Of%20Plague%20woman%27s%20two%20sided%20print-t-shirt.jpg",
+    imageNG:
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1577701566/strident/merchandises/production/March%20Of%20Plague%20woman%27s%20two%20sided%20print-t-shirt_ng.webp",
+  },
+  {
+    name: "March Of Plague (One sided)",
+    type: "T-shirt",
+    price: 17,
+    url: "https://stridentthrash.bandcamp.com/merch/mans-one-side-print-t-shirt-march-of-plague-limited-edition",
+    image:
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1577700917/strident/merchandises/production/Limited%20edition%20March%20Of%20Plague%20man%27s%20one%20side%20print-t-shirt.jpg",
+    imageNG:
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1577700918/strident/merchandises/production/Limited%20edition%20March%20Of%20Plague%20man%27s%20one%20side%20print-t-shirt_ng.webp",
+  },
+  {
+    name: "March Of Plague (One sided)",
+    type: "Girls T-shirt",
+    price: 17,
+    url: "https://stridentthrash.bandcamp.com/merch/womans-one-side-print-t-shirt-march-of-plague-limited-edition",
+    image:
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1577701798/strident/merchandises/production/Limited%20edition%20March%20Of%20Plague%20Woman%27s%20one%20side%20print-t-shirt.jpg",
+    imageNG:
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1577701799/strident/merchandises/production/Limited%20edition%20March%20Of%20Plague%20Woman%27s%20one%20side%20print-t-shirt_ng.webp",
+  },
+  {
+    name: "Embroidered logo",
+    type: "Patch",
+    price: 5,
+    url: "https://stridentthrash.bandcamp.com/merch/embroidered-logo-patch",
+    image:
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1577701975/strident/merchandises/production/Embroidered%20logo-patch.jpg",
+    imageNG:
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1577701976/strident/merchandises/production/Embroidered%20logo-patch_ng.webp",
+  },
+];
+
+export default merchandises;

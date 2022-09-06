@@ -1,0 +1,39 @@
+import { FunctionComponent } from "react";
+import styled from "styled-components";
+
+import useMediaQuery from "../../hooks/useMediaQuery";
+import Container from "../../styled/Container";
+import { Masonry, MasonryBrick } from "../../styled/Masonry";
+import { Card, CardTitle, CardContent } from "../../styled/Card";
+import Header from "../../components/Header";
+import lyrics from "../../data/lyrics";
+
+const Text = styled.pre({
+  fontFamily: '"Special Elite", cursive',
+  fontSize: "13px",
+  lineHeight: 1.5,
+});
+
+const Lyrics: FunctionComponent = () => {
+  const isMobile = useMediaQuery("(max-width: 767px)");
+
+  return (
+    <Container>
+      <Header title="Lyrics" />
+      <Masonry isMobile={isMobile}>
+        {lyrics.map((lyric) => (
+          <MasonryBrick key={lyric.name}>
+            <Card>
+              <CardTitle style={{ paddingTop: 20 }}>{lyric.name}</CardTitle>
+              <CardContent style={{ paddingTop: 0 }}>
+                <Text>{lyric.text}</Text>
+              </CardContent>
+            </Card>
+          </MasonryBrick>
+        ))}
+      </Masonry>
+    </Container>
+  );
+};
+
+export default Lyrics;
