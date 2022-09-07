@@ -7,6 +7,7 @@ import { Masonry, MasonryBrick } from "../../styled/Masonry";
 import { Card, CardTitle, CardContent } from "../../styled/Card";
 import Header from "../../components/Header";
 import lyrics from "../../data/lyrics";
+import Head from "../../components/Head";
 
 const Text = styled.pre({
   fontFamily: '"Special Elite", cursive',
@@ -19,6 +20,11 @@ const Lyrics: FunctionComponent = () => {
 
   return (
     <Container>
+      <Head
+        path="/lyrics"
+        pageTitle="Strident - Lyrics"
+        pageDescription="Strident official lyrics"
+      />
       <Header title="Lyrics" />
       <Masonry isMobile={isMobile}>
         {lyrics.map((lyric) => (

@@ -6,6 +6,7 @@ import Header from "../../components/Header";
 import Container from "../../styled/Container";
 import ResponsiveText from "../../styled/ResponsiveText";
 import { Card, CardContent } from "../../styled/Card";
+import Head from "../../components/Head";
 
 const Wrapper = styled.div<{ isMobile: boolean }>(({ isMobile }) => ({
   width: isMobile ? "90vw" : "70vw",
@@ -17,6 +18,11 @@ const About: FunctionComponent = () => {
 
   return (
     <Container>
+      <Head
+        path="/about"
+        pageTitle="Strident - About"
+        pageDescription="A brief history of Strident"
+      />
       <Header title="About" />
       <Wrapper isMobile={isMobile}>
         <Card>

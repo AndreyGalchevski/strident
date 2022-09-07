@@ -10,12 +10,18 @@ import Header from "../../components/Header";
 import DirectionsIcon from "../../components/icons/Directions";
 import EventIcon from "../../components/icons/Event";
 import gigs from "../../data/gigs";
+import Head from "../../components/Head";
 
 const Gigs: FunctionComponent = () => {
   const isMobile = useMediaQuery("(max-width: 767px)");
 
   return (
     <Container>
+      <Head
+        path="/gigs"
+        pageTitle="Strident - Gigs"
+        pageDescription="Strident touring schedule"
+      />
       <Header title="Gigs" />
       <Masonry isMobile={isMobile}>
         {gigs.map((gig) => (

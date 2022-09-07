@@ -10,6 +10,7 @@ import Header from "../../components/Header";
 import ShoppingCartIcon from "../../components/icons/ShoppingCart";
 import EuroIcon from "../../components/icons/Euro";
 import merchandises from "../../data/merchandises";
+import Head from "../../components/Head";
 
 const PriceContainer = styled.p({
   display: "flex",
@@ -22,6 +23,11 @@ const Merch: FunctionComponent = () => {
 
   return (
     <Container>
+      <Head
+        path="/merch"
+        pageTitle="Strident - Official merch"
+        pageDescription="Official Strident merchandise"
+      />
       <Header title="Merch" />
       <Masonry isMobile={isMobile}>
         {merchandises.map((merchandise) => (

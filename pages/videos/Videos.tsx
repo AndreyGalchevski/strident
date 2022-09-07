@@ -3,15 +3,21 @@ import { FunctionComponent } from "react";
 import useMediaQuery from "../../hooks/useMediaQuery";
 import Container from "../../styled/Container";
 import { Masonry, MasonryBrick } from "../../styled/Masonry";
-import { Card, CardContent, CardAction } from "../../styled/Card";
+import { Card, CardContent } from "../../styled/Card";
 import Header from "../../components/Header";
 import videos from "../../data/videos";
+import Head from "../../components/Head";
 
 const Videos: FunctionComponent = () => {
   const isMobile = useMediaQuery("(max-width: 767px)");
 
   return (
     <Container>
+      <Head
+        path="/videos"
+        pageTitle="Strident - Official Music Videos"
+        pageDescription="Official Strident music videos"
+      />
       <Header title="Videos" />
       <Masonry isMobile={isMobile}>
         {videos.map((video) => (
@@ -21,11 +27,11 @@ const Videos: FunctionComponent = () => {
                 <iframe
                   title={video.name}
                   src={video.url}
-                  allow="autoplay; encrypted-media"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                   frameBorder="0"
                   width="100%"
-                  height="60%"
+                  height="315"
                   style={{ borderRadius: 30 }}
                 />
               </CardContent>

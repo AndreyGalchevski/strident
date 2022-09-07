@@ -6,6 +6,7 @@ import Container from "../../styled/Container";
 import { Card, CardTitle, CardContent, CardImage } from "../../styled/Card";
 import Header from "../../components/Header";
 import members from "../../data/members";
+import Head from "../../components/Head";
 
 const MembersContainer = styled.div<{ isMobile: boolean }>(({ isMobile }) => ({
   display: "flex",
@@ -23,6 +24,11 @@ const Members: FunctionComponent = () => {
 
   return (
     <Container>
+      <Head
+        path="/members"
+        pageTitle="Strident - Band Members"
+        pageDescription="Strident band members"
+      />
       <Header title="Members" />
       <MembersContainer isMobile={isMobile}>
         {members.map((member) => (
