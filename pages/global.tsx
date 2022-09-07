@@ -27,7 +27,8 @@ const GlobalStyles = createGlobalStyle<{ theme: Theme }>`
     background-image: url(https://res.cloudinary.com/dqvimfd8b/image/upload/o_80/v1571164112/strident/app/background_ng.webp);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
+    height: 100vh;
   }
 
   .image-gallery-right-nav, .image-gallery-left-nav, .image-gallery-play-button, .image-gallery-fullscreen-button {
