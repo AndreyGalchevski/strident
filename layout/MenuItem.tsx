@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 import React, { FunctionComponent, CSSProperties } from "react";
 
 import { COLORS } from "../utils/constants";
@@ -20,15 +21,21 @@ const MenuItem: FunctionComponent<MenuItemProps> = ({
   text,
   onClick,
   style = {},
-}) => (
-  <Link
-    href={path}
-    style={{ ...baseLinkStyle, ...style }}
-    // activeStyle={{ fontSize: 16, color: COLORS.RED }}
-    onClick={onClick}
-  >
-    {text}
-  </Link>
-);
+}) => {
+  const router = useRouter();
+  return (
+    <Link href={path} onClick={onClick}>
+      <a
+        style={{
+          ...baseLinkStyle,
+          ...style,
+          ...(router.pathname === path && { fontSize: 16, color: COLORS.RED }),
+        }}
+      >
+        {text}
+      </a>
+    </Link>
+  );
+};
 
 export default MenuItem;

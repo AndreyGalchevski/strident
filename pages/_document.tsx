@@ -103,6 +103,10 @@ class MyDocument extends Document {
             // eslint-disable-next-line react/no-danger
             dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
           />
+          <link
+            href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap"
+            rel="stylesheet"
+          />
         </Head>
         <body>
           <Main />

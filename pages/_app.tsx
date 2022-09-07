@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import type { AppProps } from "next/app";
 import { ThemeProvider } from "styled-components";
+import Footer from "../layout/Footer";
 
 import Navbar from "../layout/Navbar";
 import theme from "../utils/theme";
@@ -15,6 +16,7 @@ const StridentApp = ({ Component, pageProps }: AppProps) => {
         <main>
           <Component {...pageProps} />
         </main>
+        <Footer />
       </>
     </ThemeProvider>
   );
