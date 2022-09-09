@@ -26,7 +26,7 @@ const Merch = () => (
     <Header title="Merch" />
     <Masonry>
       {merchandises.map((merchandise) => (
-        <MasonryBrick key={merchandise.name}>
+        <MasonryBrick key={`${merchandise.name}-${merchandise.type}`}>
           <Card>
             <div>
               <picture>

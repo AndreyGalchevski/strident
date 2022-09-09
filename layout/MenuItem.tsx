@@ -24,8 +24,9 @@ const MenuItem: FunctionComponent<MenuItemProps> = ({
 }) => {
   const router = useRouter();
   return (
-    <Link href={path} onClick={onClick}>
+    <Link href={path}>
       <a
+        onClick={onClick}
         style={{
           ...baseLinkStyle,
           ...style,
