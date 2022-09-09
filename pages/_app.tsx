@@ -7,19 +7,17 @@ import Navbar from "../layout/Navbar";
 import theme from "../utils/theme";
 import GlobalStyles from "./global";
 
-const StridentApp = ({ Component, pageProps }: AppProps) => {
-  return (
-    <ThemeProvider theme={theme}>
-      <>
-        <GlobalStyles />
-        <Navbar />
-        <main>
-          <Component {...pageProps} />
-        </main>
-        {/* <Footer /> */}
-      </>
-    </ThemeProvider>
-  );
-};
+const StridentApp = ({ Component, pageProps }: AppProps) => (
+  <ThemeProvider theme={theme}>
+    <>
+      <GlobalStyles />
+      <Navbar />
+      <main>
+        <Component {...pageProps} />
+      </main>
+      {/* <Footer /> */}
+    </>
+  </ThemeProvider>
+);
 
 export default StridentApp;

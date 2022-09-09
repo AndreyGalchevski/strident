@@ -1,9 +1,13 @@
 import styled from "styled-components";
 
-const ResponsiveText = styled.p<{ isMobile: boolean }>(({ isMobile }) => ({
-  marginTop: 0,
-  fontSize: isMobile ? 18 : 24,
-  lineHeight: 1.5,
-}));
+const ResponsiveText = styled.p`
+  margin-top: 0;
+  font-size: 18;
+  line-height: 1.5;
+
+  @media (min-width: ${({ theme }) => theme.mobile}) {
+    font-size: 24;
+  }
+`;
 
 export default ResponsiveText;

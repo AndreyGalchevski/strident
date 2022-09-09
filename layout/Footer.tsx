@@ -1,4 +1,3 @@
-import React, { FunctionComponent } from "react";
 import styled from "styled-components";
 
 import { COLORS } from "../utils/constants";
@@ -27,55 +26,53 @@ const SocialMediaLink = styled.a({
   paddingRight: "0.5em",
 });
 
-const Footer: FunctionComponent = () => {
-  return (
-    <Container>
-      <Content>
-        <span>
-          <SocialMediaLink
-            href="https://www.facebook.com/stridentthrash"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Follow Strident on Facebook"
-          >
-            <FacebookIcon />
-          </SocialMediaLink>
-          <SocialMediaLink
-            href="https://www.instagram.com/strident.thrash"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Follow Strident on Instagram"
-          >
-            <InstagramIcon />
-          </SocialMediaLink>
-          <SocialMediaLink
-            href="https://stridentthrash.bandcamp.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Follow Strident on Bandcamp"
-          >
-            <BandcampIcon />
-          </SocialMediaLink>
-          <SocialMediaLink
-            href="https://www.youtube.com/user/MrThrashmaster"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Watch Strident on Youtube"
-          >
-            <YoutubeIcon />
-          </SocialMediaLink>
-          <SocialMediaLink
-            href="https://open.spotify.com/artist/1iLO8tqlkfiQMWf7JqaNE3"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Listen to Strident on Spotify"
-          >
-            <SpotifyIcon />
-          </SocialMediaLink>
-        </span>
-      </Content>
-    </Container>
-  );
-};
+const Footer = () => (
+  <Container>
+    <Content>
+      <span>
+        <SocialMediaLink
+          href="https://www.facebook.com/stridentthrash"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Follow Strident on Facebook"
+        >
+          <FacebookIcon />
+        </SocialMediaLink>
+        <SocialMediaLink
+          href="https://www.instagram.com/strident.thrash"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Follow Strident on Instagram"
+        >
+          <InstagramIcon />
+        </SocialMediaLink>
+        <SocialMediaLink
+          href="https://stridentthrash.bandcamp.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Follow Strident on Bandcamp"
+        >
+          <BandcampIcon />
+        </SocialMediaLink>
+        <SocialMediaLink
+          href="https://www.youtube.com/user/MrThrashmaster"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Watch Strident on Youtube"
+        >
+          <YoutubeIcon />
+        </SocialMediaLink>
+        <SocialMediaLink
+          href="https://open.spotify.com/artist/1iLO8tqlkfiQMWf7JqaNE3"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Listen to Strident on Spotify"
+        >
+          <SpotifyIcon />
+        </SocialMediaLink>
+      </span>
+    </Content>
+  </Container>
+);
 
 export default Footer;

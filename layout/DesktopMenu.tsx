@@ -7,7 +7,7 @@ import MenuItem from "./MenuItem";
 const Wrapper = styled.div({
   display: "flex",
   flexDirection: "row",
-  height: "100%",
+  height: 64,
 });
 
 const LeftLinks = styled.div({

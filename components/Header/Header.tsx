@@ -1,7 +1,8 @@
 import { FunctionComponent } from "react";
 import styled from "styled-components";
 
-import useMediaQuery from "../../hooks/useMediaQuery";
+import HiddenOnDesktop from "../../styled/HiddenOnDesktop";
+import VisibleOnlyOnDesktop from "../../styled/VisibleOnlyOnDesktop";
 
 const LeftIcon = styled.img({
   marginRight: 10,
@@ -13,37 +14,29 @@ const RightIcon = styled.img({
   marginBottom: -4,
 });
 
-const Divider = styled.div({
-  paddingTop: "1.5vh",
-  paddingBottom: "1.5vh",
-});
-
 export interface Props {
   title: string;
 }
 
-const Header: FunctionComponent<Props> = ({ title }) => {
-  const isMobile = useMediaQuery("(max-width: 767px)");
-
-  return (
-    <div>
-      {isMobile ? (
-        <h1>
-          <LeftIcon
-            src="https://res.cloudinary.com/dqvimfd8b/image/upload/v1570908405/strident/icons/20191012_210223__01.png"
-            alt=""
-          />
-          {title}
-          <RightIcon
-            src="https://res.cloudinary.com/dqvimfd8b/image/upload/v1570903384/strident/icons/20191012_210223.png"
-            alt=""
-          />
-        </h1>
-      ) : (
-        <Divider> </Divider>
-      )}
-    </div>
-  );
-};
+const Header: FunctionComponent<Props> = ({ title }) => (
+  <div>
+    <HiddenOnDesktop>
+      <h1>
+        <LeftIcon
+          src="https://res.cloudinary.com/dqvimfd8b/image/upload/v1570908405/strident/icons/20191012_210223__01.png"
+          alt=""
+        />
+        {title}
+        <RightIcon
+          src="https://res.cloudinary.com/dqvimfd8b/image/upload/v1570903384/strident/icons/20191012_210223.png"
+          alt=""
+        />
+      </h1>
+    </HiddenOnDesktop>
+    <VisibleOnlyOnDesktop>
+      <h1> </h1>
+    </VisibleOnlyOnDesktop>
+  </div>
+);
 
 export default Header;
