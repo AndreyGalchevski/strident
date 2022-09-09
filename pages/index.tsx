@@ -19,8 +19,8 @@ const BannerContainer = styled.div({
 const Banner = styled.img`
   height: 74vh;
   max-width: 90vw;
-  box-shadow: 0 4px 8px 0 ${({ theme }) => theme.colors.black},
-    0 6px 20px 0 ${({ theme }) => theme.colors.black};
+  box-shadow: 0px 4px 8px 0px ${({ theme }) => theme.colors.black},
+    0px 6px 20px 0px ${({ theme }) => theme.colors.black};
 `;
 
 const Wrapper = styled.div`

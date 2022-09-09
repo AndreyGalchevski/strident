@@ -10,7 +10,7 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   background-color: ${({ theme }) => theme.colors.black};
-  padding-top: 20;
+  padding-top: 20px;
 `;
 
 const MenuImage = styled.img({

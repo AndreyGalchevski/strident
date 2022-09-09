@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const ResponsiveText = styled.p`
-  margin-top: 0;
+  margin-top: 0px;
   font-size: 18px;
   line-height: 1.5;
 

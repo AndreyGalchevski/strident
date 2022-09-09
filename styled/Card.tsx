@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 export const Card = styled.div`
-  position: "relative";
+  position: relative;
   margin: 8px 0px 16px 0px;
-  box-shadow: 0 4px 8px 0 ${({ theme }) => theme.colors.black},
-    0 6px 20px 0 ${({ theme }) => theme.colors.black};
+  box-shadow: 0px 4px 8px 0px ${({ theme }) => theme.colors.black},
+    0px 6px 20px 0px ${({ theme }) => theme.colors.black};
   background-color: ${({ theme }) => theme.colors.black};
   color: ${({ theme }) => theme.colors.white};
   border-radius: 30px;
