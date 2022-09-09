@@ -2,10 +2,10 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { FunctionComponent, CSSProperties } from "react";
 
-import { COLORS } from "../utils/constants";
+import theme from "../utils/theme";
 
 const baseLinkStyle = {
-  color: COLORS.WHITE,
+  color: theme.colors.white,
   margin: "auto",
 };
 
@@ -30,7 +30,10 @@ const MenuItem: FunctionComponent<MenuItemProps> = ({
         style={{
           ...baseLinkStyle,
           ...style,
-          ...(router.pathname === path && { fontSize: 16, color: COLORS.RED }),
+          ...(router.pathname === path && {
+            fontSize: 16,
+            color: theme.colors.red,
+          }),
         }}
       >
         {text}

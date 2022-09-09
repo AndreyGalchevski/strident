@@ -5,7 +5,7 @@ export const Masonry = styled.div`
   max-width: 1080px;
   column-count: 1;
 
-  @media (min-width: ${({ theme }) => theme.mobile}) {
+  @media (min-width: ${({ theme }) => theme.breakpoints.mobile}) {
     column-count: 2;
   }
 `;

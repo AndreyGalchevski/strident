@@ -7,26 +7,28 @@ import Container from "../styled/Container";
 import { Card, CardContent, CardTitle, CardAction } from "../styled/Card";
 import ResponsiveText from "../styled/ResponsiveText";
 import Header from "../components/Header";
-import { COLORS, homeImages } from "../utils/constants";
+import { homeImages } from "../utils/constants";
 import Head from "../components/Head";
 import gigs from "../data/gigs";
+import theme from "../utils/theme";
 
 const BannerContainer = styled.div({
   marginBottom: 20,
 });
 
-const Banner = styled.img({
-  height: "74vh",
-  maxWidth: "90vw",
-  boxShadow: `0 4px 8px 0 ${COLORS.BLACK}, 0 6px 20px 0 ${COLORS.BLACK}`,
-});
+const Banner = styled.img`
+  height: 74vh;
+  max-width: 90vw;
+  box-shadow: 0 4px 8px 0 ${({ theme }) => theme.colors.black},
+    0 6px 20px 0 ${({ theme }) => theme.colors.black};
+`;
 
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
 
-  @media (min-width: ${({ theme }) => theme.mobile}) {
+  @media (min-width: ${({ theme }) => theme.breakpoints.mobile}) {
     flex-direction: row;
   }
 `;
@@ -81,7 +83,7 @@ const Home = () => (
           </ResponsiveText>
         </CardContent>
         <CardAction>
-          <Link href="/about" style={{ color: COLORS.WHITE }}>
+          <Link href="/about" style={{ color: theme.colors.white }}>
             Read more
           </Link>
         </CardAction>
@@ -100,7 +102,7 @@ const Home = () => (
           />
         </CardContent>
         <CardAction>
-          <Link href="/videos" style={{ color: COLORS.WHITE }}>
+          <Link href="/videos" style={{ color: theme.colors.white }}>
             More videos
           </Link>
         </CardAction>
@@ -123,7 +125,7 @@ const Home = () => (
           ))}
         </CardContent>
         <CardAction>
-          <Link href="/gigs" style={{ color: COLORS.WHITE }}>
+          <Link href="/gigs" style={{ color: theme.colors.white }}>
             More gigs
           </Link>
         </CardAction>
@@ -141,7 +143,7 @@ const Home = () => (
           />
         </CardContent>
         <CardAction>
-          <Link href="/songs" style={{ color: COLORS.WHITE }}>
+          <Link href="/songs" style={{ color: theme.colors.white }}>
             More songs
           </Link>
         </CardAction>

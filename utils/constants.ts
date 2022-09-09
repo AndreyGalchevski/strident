@@ -1,13 +1,5 @@
 import { ReactImageGalleryItem } from "react-image-gallery";
 
-export const COLORS = {
-  BLACK: "#212121",
-  RED: "#a30808",
-  GREY: "#9e9e9e",
-  DARK_GREY: "#424242",
-  WHITE: "#f5f5f5",
-};
-
 const baseURL = "https://res.cloudinary.com/dqvimfd8b/image/upload";
 
 export const homeImages: Array<ReactImageGalleryItem> = [

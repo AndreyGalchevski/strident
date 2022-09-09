@@ -1,7 +1,6 @@
 import React, { FunctionComponent, useState } from "react";
 import styled from "styled-components";
 
-import { COLORS } from "../utils/constants";
 import MobileMenu from "./MobileMenu";
 import DesktopMenu from "./DesktopMenu";
 import SideMenu from "./SideMenu";
@@ -9,9 +8,9 @@ import VisibleOnlyOnDesktop from "../styled/VisibleOnlyOnDesktop";
 import HiddenOnDesktop from "../styled/HiddenOnDesktop";
 
 const Nav = styled.nav`
-  background-color: ${COLORS.BLACK};
+  background-color: ${({ theme }) => theme.colors.black};
   height: 56px;
-  @media (min-width: ${({ theme }) => theme.mobile}) {
+  @media (min-width: ${({ theme }) => theme.breakpoints.mobile}) {
     height: 64px;
   }
 `;

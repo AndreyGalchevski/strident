@@ -1,17 +1,17 @@
 import React, { FunctionComponent } from "react";
 import styled from "styled-components";
 
-import { COLORS } from "../utils/constants";
+import theme from "../utils/theme";
 import MenuItem from "./MenuItem";
 
-const Wrapper = styled.div({
-  width: "100%",
-  height: "100vh",
-  display: "flex",
-  flexDirection: "column",
-  backgroundColor: COLORS.BLACK,
-  paddingTop: 20,
-});
+const Wrapper = styled.div`
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: ${({ theme }) => theme.colors.black};
+  padding-top: 20;
+`;
 
 const MenuImage = styled.img({
   marginTop: "3vh",
@@ -20,7 +20,7 @@ const MenuImage = styled.img({
 });
 
 const menuItemStyle = {
-  color: COLORS.WHITE,
+  color: theme.colors.white,
   margin: 8,
 };
 

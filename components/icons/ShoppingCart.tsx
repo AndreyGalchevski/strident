@@ -1,6 +1,6 @@
 import { CSSProperties, FunctionComponent } from "react";
 
-import { COLORS } from "../../utils/constants";
+import theme from "../../utils/theme";
 
 interface Props {
   width?: number;
@@ -12,7 +12,7 @@ interface Props {
 const ShoppingCartIcon: FunctionComponent<Props> = ({
   width = 24,
   height = 24,
-  color = COLORS.BLACK,
+  color = theme.colors.black,
   style = {},
 }) => (
   <svg

@@ -10,7 +10,7 @@ const Wrapper = styled.div`
   width: 90vw;
   margin: auto;
 
-  @media (min-width: ${({ theme }) => theme.mobile}) {
+  @media (min-width: ${({ theme }) => theme.breakpoints.mobile}) {
     width: 70vw;
   }
 `;

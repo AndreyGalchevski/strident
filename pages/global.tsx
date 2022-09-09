@@ -1,9 +1,7 @@
 import { normalize } from "styled-normalize";
 import { createGlobalStyle } from "styled-components";
 
-import { Theme } from "../utils/theme";
-
-const GlobalStyles = createGlobalStyle<{ theme: Theme }>`
+const GlobalStyles = createGlobalStyle`
   ${normalize}
   html, body {
     padding: 0;

@@ -5,7 +5,7 @@ const ResponsiveText = styled.p`
   font-size: 18px;
   line-height: 1.5;
 
-  @media (min-width: ${({ theme }) => theme.mobile}) {
+  @media (min-width: ${({ theme }) => theme.breakpoints.mobile}) {
     font-size: 24px;
   }
 `;

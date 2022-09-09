@@ -1,14 +1,13 @@
 import styled from "styled-components";
-import { COLORS } from "../utils/constants";
 
-const HalfwayTab = styled.a({
-  position: "absolute",
-  width: 40,
-  height: 40,
-  borderRadius: 20,
-  backgroundColor: COLORS.WHITE,
-  right: 24,
-  bottom: 174,
-});
+const HalfwayTab = styled.a`
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: ${({ theme }) => theme.colors.white};
+  right: 24px;
+  bottom: 174px;
+`;
 
 export default HalfwayTab;

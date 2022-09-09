@@ -1,21 +1,20 @@
 import styled from "styled-components";
 
-import { COLORS } from "../utils/constants";
 import FacebookIcon from "../components/icons/Facebook";
 import InstagramIcon from "../components/icons/Instagram";
 import BandcampIcon from "../components/icons/Bandcamp";
 import YoutubeIcon from "../components/icons/Youtube";
 import SpotifyIcon from "../components/icons/Spotify";
 
-const Container = styled.footer({
-  position: "fixed",
-  bottom: "0",
-  width: "100%",
-  height: "5vh",
-  backgroundColor: COLORS.BLACK,
-  color: COLORS.WHITE,
-  zIndex: 99,
-});
+const Container = styled.footer`
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 5vh;
+  background-color: ${({ theme }) => theme.colors.black};
+  color: ${({ theme }) => theme.colors.white};
+  z-index: 99;
+`;
 
 const Content = styled.p({
   marginTop: "1vh",

@@ -1,6 +1,6 @@
 import { CSSProperties, FunctionComponent } from "react";
 
-import { COLORS } from "../../utils/constants";
+import theme from "../../utils/theme";
 
 interface Props {
   width?: number;
@@ -12,7 +12,7 @@ interface Props {
 const InstagramIcon: FunctionComponent<Props> = ({
   width = 20,
   height = 20,
-  color = COLORS.WHITE,
+  color = theme.colors.white,
   style = {},
 }) => (
   <svg
