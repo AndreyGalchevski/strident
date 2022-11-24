@@ -76,11 +76,13 @@ const Home = () => (
         <CardContent>
           <CardTitle>About</CardTitle>
           <ResponsiveText>
-            Strident is a thrash metal band formed in 2004 in the ancient city
-            of Be`er Sheva (Israel). Starting from playing cover versions of
-            such famous groups as Iron Maiden, AC / DC, etc and having come a
-            long way, they found their style on the Israeli metal scene
+            Strident is an Israeli Thrash Metal band with old-school riffing and
+            vibes from the 80s.
           </ResponsiveText>
+          <ResponsiveText>
+            We are not afraid to be ourselves and do what we want.
+          </ResponsiveText>
+          <ResponsiveText>Thrash Till Death</ResponsiveText>
         </CardContent>
         <CardAction>
           <Link href="/about" style={{ color: theme.colors.white }}>

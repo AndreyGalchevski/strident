@@ -6,6 +6,11 @@ export interface Video {
 
 const videos: Array<Video> = [
   {
+    name: "STRIDENT - War (Live At Woko Klub)",
+    url: "https://www.youtube.com/embed/FKdu9rHsrY0",
+    date: "2022-09-09T00:00:00.000+00:00",
+  },
+  {
     name: "STRIDENT - No Faith No War (Official video)",
     url: "https://www.youtube.com/embed/UkvlRmq62io",
     date: "2019-11-29T00:00:00.000+00:00",
