@@ -47,26 +47,26 @@ const Home = () => (
       <picture>
         <source
           media="(max-width: 785px)"
-          srcSet="https://res.cloudinary.com/dqvimfd8b/image/upload/v1572275145/strident/app/march-of-plague-banner-high-ng.webp"
+          srcSet="https://res.cloudinary.com/dqvimfd8b/image/upload/v1572275145/strident/static/march-of-plague-banner-high-ng.webp"
           type="image/webp"
         />
         <source
           media="(max-width: 785px)"
-          srcSet="https://res.cloudinary.com/dqvimfd8b/image/upload/v1572274125/strident/app/march-of-plague-banner-high.jpg"
+          srcSet="https://res.cloudinary.com/dqvimfd8b/image/upload/v1572274125/strident/static/march-of-plague-banner-high.jpg"
           type="image/jpeg"
         />
         <source
           media="(min-width: 786px)"
-          srcSet="https://res.cloudinary.com/dqvimfd8b/image/upload/v1572275146/strident/app/march-of-plague-banner-wide-ng.webp"
+          srcSet="https://res.cloudinary.com/dqvimfd8b/image/upload/v1572275146/strident/static/march-of-plague-banner-wide-ng.webp"
           type="image/webp"
         />
         <source
           media="(min-width: 786px)"
-          srcSet="https://res.cloudinary.com/dqvimfd8b/image/upload/v1572274888/strident/app/march-of-plague-banner-wide.jpg"
+          srcSet="https://res.cloudinary.com/dqvimfd8b/image/upload/v1572274888/strident/static/march-of-plague-banner-wide.jpg"
           type="image/jpeg"
         />
         <Banner
-          src="https://res.cloudinary.com/dqvimfd8b/image/upload/v1572274125/strident/app/march-of-plague-banner-high.jpg"
+          src="https://res.cloudinary.com/dqvimfd8b/image/upload/v1572274125/strident/static/march-of-plague-banner-high.jpg"
           alt="New Album banner"
         />
       </picture>

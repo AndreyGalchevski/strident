@@ -19,7 +19,7 @@ const structuredData = {
   // },
   image: {
     "@type": "ImageObject",
-    url: "https://res.cloudinary.com/dqvimfd8b/image/upload/v1571406645/strident/home/1_ng.webp",
+    url: "https://res.cloudinary.com/dqvimfd8b/image/upload/v1571406645/strident/prod/home/1_ng.webp",
   },
   url: "https://strident.band",
   genre: ["Thrash Metal"],

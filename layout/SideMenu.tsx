@@ -75,15 +75,15 @@ const SideMenu: FunctionComponent<Props> = ({ onClose }) => (
     />
     <picture>
       <source
-        srcSet="https://res.cloudinary.com/dqvimfd8b/image/upload/v1571164676/strident/app/sidenav_ng.webp"
+        srcSet="https://res.cloudinary.com/dqvimfd8b/image/upload/v1571164676/strident/static/sidenav_ng.webp"
         type="image/webp"
       />
       <source
-        srcSet="https://res.cloudinary.com/dqvimfd8b/image/upload/v1571164625/strident/app/sidenav.png"
+        srcSet="https://res.cloudinary.com/dqvimfd8b/image/upload/v1571164625/strident/static/sidenav.png"
         type="image/jpeg"
       />
       <MenuImage
-        src="https://res.cloudinary.com/dqvimfd8b/image/upload/v1571164625/strident/app/sidenav.png"
+        src="https://res.cloudinary.com/dqvimfd8b/image/upload/v1571164625/strident/static/sidenav.png"
         alt=""
       />
     </picture>

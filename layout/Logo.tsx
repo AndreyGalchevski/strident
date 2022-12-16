@@ -8,7 +8,7 @@ const LogoImage = styled.img({
 
 const Logo: FunctionComponent = () => (
   <LogoImage
-    src="https://res.cloudinary.com/dqvimfd8b/image/upload/v1570799435/strident/app/20191011_160907.png"
+    src="https://res.cloudinary.com/dqvimfd8b/image/upload/v1570799435/strident/static/20191011_160907.png"
     alt=""
   />
 );

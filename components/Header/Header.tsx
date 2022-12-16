@@ -23,12 +23,12 @@ const Header: FunctionComponent<Props> = ({ title }) => (
     <HiddenOnDesktop>
       <h1>
         <LeftIcon
-          src="https://res.cloudinary.com/dqvimfd8b/image/upload/v1570908405/strident/icons/20191012_210223__01.png"
+          src="https://res.cloudinary.com/dqvimfd8b/image/upload/v1570908405/strident/static/20191012_210223__01.png"
           alt=""
         />
         {title}
         <RightIcon
-          src="https://res.cloudinary.com/dqvimfd8b/image/upload/v1570903384/strident/icons/20191012_210223.png"
+          src="https://res.cloudinary.com/dqvimfd8b/image/upload/v1570903384/strident/static/20191012_210223.png"
           alt=""
         />
       </h1>
