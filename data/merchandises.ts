@@ -46,7 +46,7 @@ const merchandises: Array<Merchandise> = [
     image:
       "https://res.cloudinary.com/dqvimfd8b/image/upload/v1577700588/strident/prod/merchandise/On%20The%20Aim-CD.jpg",
     imageNG:
-      "https://res.cloudinary.com/dqvimfd8b/image/f_auto/upload/v1577700589/strident/prod/merchandise/On%20The%20Aim-CD.jpg",
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/f_auto/v1577700589/strident/prod/merchandise/On%20The%20Aim-CD.jpg",
   },
   {
     name: "March Of Plague (Two sided)",
