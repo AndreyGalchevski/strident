@@ -75,7 +75,7 @@ const gigs: Array<Gig> = [
     image:
       "https://res.cloudinary.com/dqvimfd8b/image/upload/v1596523725/strident/prod/gigs/Peru-2020-09-01.jpg",
     imageNG:
-      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1596523726/strident/prod/gigs/Peru-2020-09-01_ng.webp",
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/f_auto/v1596523726/strident/prod/gigs/Peru-2020-09-01.jpg",
   },
   {
     name: "Bloody News Online Fest",
@@ -88,7 +88,7 @@ const gigs: Array<Gig> = [
     image:
       "https://res.cloudinary.com/dqvimfd8b/image/upload/v1596523645/strident/prod/gigs/Romania-2020-08-28.jpg",
     imageNG:
-      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1596523646/strident/prod/gigs/Romania-2020-08-28_ng.webp",
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/f_auto/v1596523646/strident/prod/gigs/Romania-2020-08-28.jpg",
   },
   {
     name: "21.2 Nick's B-Day bash & Night of Keoss Strident/03/BullShark",
@@ -100,7 +100,7 @@ const gigs: Array<Gig> = [
     image:
       "https://res.cloudinary.com/dqvimfd8b/image/upload/v1581252690/strident/prod/gigs/KeossStudios-2020-02-21.jpg",
     imageNG:
-      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1581252691/strident/prod/gigs/KeossStudios-2020-02-21_ng.webp",
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/f_auto/v1581252691/strident/prod/gigs/KeossStudios-2020-02-21.jpg",
   },
   {
     name: "Fuck You Valentine",
@@ -112,7 +112,7 @@ const gigs: Array<Gig> = [
     image:
       "https://res.cloudinary.com/dqvimfd8b/image/upload/v1581252534/strident/prod/gigs/BlazeRockBar-2020-02-15.jpg",
     imageNG:
-      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1581252535/strident/prod/gigs/BlazeRockBar-2020-02-15_ng.webp",
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/f_auto/v1581252535/strident/prod/gigs/BlazeRockBar-2020-02-15.jpg",
   },
   {
     name: "March Of Plague Release Show",
@@ -124,7 +124,7 @@ const gigs: Array<Gig> = [
     image:
       "https://res.cloudinary.com/dqvimfd8b/image/upload/v1578320864/strident/prod/gigs/OzenBar-%D7%90%D7%95%D7%96%D7%9F%D7%91%D7%A8-2020-01-16.jpg",
     imageNG:
-      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1578320866/strident/prod/gigs/OzenBar-%D7%90%D7%95%D7%96%D7%9F%D7%91%D7%A8-2020-01-16_ng.webp",
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/f_auto/v1578320866/strident/prod/gigs/OzenBar-%D7%90%D7%95%D7%96%D7%9F%D7%91%D7%A8-2020-01-16.jpg",
   },
   {
     name: "Strident ✦ Deusphera ✦ Haifa Double B Studio",
@@ -136,7 +136,7 @@ const gigs: Array<Gig> = [
     image:
       "https://res.cloudinary.com/dqvimfd8b/image/upload/v1577345561/strident/prod/gigs/DoubleBStudio-2009-02-01.jpg",
     imageNG:
-      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1577345561/strident/prod/gigs/DoubleBStudio-2009-02-01_ng.webp",
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/f_auto/v1577345561/strident/prod/gigs/DoubleBStudio-2009-02-01.jpg",
   },
   {
     name: "Metal Market, Winter 2019",
@@ -148,7 +148,7 @@ const gigs: Array<Gig> = [
     image:
       "https://res.cloudinary.com/dqvimfd8b/image/upload/v1572985963/strident/prod/gigs/OzenBar-2019-12-13.jpg",
     imageNG:
-      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1572985964/strident/prod/gigs/OzenBar-2019-12-13_ng.webp",
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/f_auto/v1572985964/strident/prod/gigs/OzenBar-2019-12-13.jpg",
   },
   {
     name: "Metal Market, Summer 2019",
@@ -160,7 +160,7 @@ const gigs: Array<Gig> = [
     image:
       "https://res.cloudinary.com/dqvimfd8b/image/upload/v1571401488/strident/prod/gigs/OzenBar-2019-08-16.jpg",
     imageNG:
-      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1571401489/strident/prod/gigs/OzenBar-2019-08-16_ng.webp",
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/f_auto/v1571401489/strident/prod/gigs/OzenBar-2019-08-16.jpg",
   },
   {
     name: "The Show Of Undead, Part 3",
@@ -172,7 +172,7 @@ const gigs: Array<Gig> = [
     image:
       "https://res.cloudinary.com/dqvimfd8b/image/upload/v1571401474/strident/prod/gigs/ArtHall-2019-07-12.jpg",
     imageNG:
-      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1571401475/strident/prod/gigs/ArtHall-2019-07-12_ng.webp",
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/f_auto/v1571401475/strident/prod/gigs/ArtHall-2019-07-12.jpg",
   },
   {
     name: "The Show Of Undead, Part 2",
@@ -184,7 +184,7 @@ const gigs: Array<Gig> = [
     image:
       "https://res.cloudinary.com/dqvimfd8b/image/upload/v1571401504/strident/prod/gigs/ArtHall-2019-06-13.jpg",
     imageNG:
-      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1571401505/strident/prod/gigs/ArtHall-2019-06-13_ng.webp",
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/f_auto/v1571401505/strident/prod/gigs/ArtHall-2019-06-13.jpg",
   },
   {
     name: "The Show Of Undead, part 1",
@@ -196,7 +196,7 @@ const gigs: Array<Gig> = [
     image:
       "https://res.cloudinary.com/dqvimfd8b/image/upload/v1572472935/strident/prod/gigs/ArtHall-2019-05-10.png",
     imageNG:
-      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1572472936/strident/prod/gigs/ArtHall-2019-05-10_ng.webp",
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/f_auto/v1572472936/strident/prod/gigs/ArtHall-2019-05-10.jpg",
   },
   {
     name: "Death B'Av",
@@ -208,7 +208,7 @@ const gigs: Array<Gig> = [
     image:
       "https://res.cloudinary.com/dqvimfd8b/image/upload/v1572473665/strident/prod/gigs/Gagarin-2018-07-18.png",
     imageNG:
-      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1572473666/strident/prod/gigs/Gagarin-2018-07-18_ng.webp",
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/f_auto/v1572473666/strident/prod/gigs/Gagarin-2018-07-18.jpg",
   },
 ];
 

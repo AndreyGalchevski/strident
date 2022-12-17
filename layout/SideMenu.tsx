@@ -75,7 +75,7 @@ const SideMenu: FunctionComponent<Props> = ({ onClose }) => (
     />
     <picture>
       <source
-        srcSet="https://res.cloudinary.com/dqvimfd8b/image/upload/v1571164676/strident/static/sidenav_ng.webp"
+        srcSet="https://res.cloudinary.com/dqvimfd8b/image/upload/f_auto/v1571164676/strident/static/sidenav.jpg"
         type="image/webp"
       />
       <source

@@ -16,7 +16,7 @@ const merchandises: Array<Merchandise> = [
     image:
       "https://res.cloudinary.com/dqvimfd8b/image/upload/v1574771723/strident/prod/merchandise/March%20Of%20Plague-Digital%20Album.jpg",
     imageNG:
-      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1574771724/strident/prod/merchandise/March%20Of%20Plague-Digital%20Album_ng.webp",
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/f_auto/v1574771724/strident/prod/merchandise/March%20Of%20Plague-Digital%20Album.jpg",
   },
   {
     name: "March Of Plague",
@@ -26,7 +26,7 @@ const merchandises: Array<Merchandise> = [
     image:
       "https://res.cloudinary.com/dqvimfd8b/image/upload/v1577700237/strident/prod/merchandise/March%20Of%20Plague-CD.jpg",
     imageNG:
-      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1577700238/strident/prod/merchandise/March%20Of%20Plague-CD_ng.webp",
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/f_auto/v1577700238/strident/prod/merchandise/March%20Of%20Plague-CD.jpg",
   },
   {
     name: "On The Aim",
@@ -36,7 +36,7 @@ const merchandises: Array<Merchandise> = [
     image:
       "https://res.cloudinary.com/dqvimfd8b/image/upload/v1577700537/strident/prod/merchandise/On%20The%20Aim-Digital%20album.jpg",
     imageNG:
-      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1577700538/strident/prod/merchandise/On%20The%20Aim-Digital%20album_ng.webp",
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/f_auto/v1577700538/strident/prod/merchandise/On%20The%20Aim-Digital%20album.jpg",
   },
   {
     name: "On The Aim",
@@ -46,7 +46,7 @@ const merchandises: Array<Merchandise> = [
     image:
       "https://res.cloudinary.com/dqvimfd8b/image/upload/v1577700588/strident/prod/merchandise/On%20The%20Aim-CD.jpg",
     imageNG:
-      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1577700589/strident/prod/merchandise/On%20The%20Aim-CD_ng.webp",
+      "https://res.cloudinary.com/dqvimfd8b/image/f_auto/upload/v1577700589/strident/prod/merchandise/On%20The%20Aim-CD.jpg",
   },
   {
     name: "March Of Plague (Two sided)",
@@ -56,7 +56,7 @@ const merchandises: Array<Merchandise> = [
     image:
       "https://res.cloudinary.com/dqvimfd8b/image/upload/v1577700792/strident/prod/merchandise/March%20Of%20Plague%20man%27s%20two%20sided%20print-t-shirt.jpg",
     imageNG:
-      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1577700793/strident/prod/merchandise/March%20Of%20Plague%20man%27s%20two%20sided%20print-t-shirt_ng.webp",
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/f_auto/v1577700793/strident/prod/merchandise/March%20Of%20Plague%20man%27s%20two%20sided%20print-t-shirt.jpg",
   },
   {
     name: "March Of Plague (Two sided)",
@@ -66,7 +66,7 @@ const merchandises: Array<Merchandise> = [
     image:
       "https://res.cloudinary.com/dqvimfd8b/image/upload/v1577701565/strident/prod/merchandise/March%20Of%20Plague%20woman%27s%20two%20sided%20print-t-shirt.jpg",
     imageNG:
-      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1577701566/strident/prod/merchandise/March%20Of%20Plague%20woman%27s%20two%20sided%20print-t-shirt_ng.webp",
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/f_auto/v1577701566/strident/prod/merchandise/March%20Of%20Plague%20woman%27s%20two%20sided%20print-t-shirt.jpg",
   },
   {
     name: "March Of Plague (One sided)",
@@ -76,7 +76,7 @@ const merchandises: Array<Merchandise> = [
     image:
       "https://res.cloudinary.com/dqvimfd8b/image/upload/v1577700917/strident/prod/merchandise/Limited%20edition%20March%20Of%20Plague%20man%27s%20one%20side%20print-t-shirt.jpg",
     imageNG:
-      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1577700918/strident/prod/merchandise/Limited%20edition%20March%20Of%20Plague%20man%27s%20one%20side%20print-t-shirt_ng.webp",
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/f_auto/v1577700918/strident/prod/merchandise/Limited%20edition%20March%20Of%20Plague%20man%27s%20one%20side%20print-t-shirt.jpg",
   },
   {
     name: "March Of Plague (One sided)",
@@ -86,7 +86,7 @@ const merchandises: Array<Merchandise> = [
     image:
       "https://res.cloudinary.com/dqvimfd8b/image/upload/v1577701798/strident/prod/merchandise/Limited%20edition%20March%20Of%20Plague%20Woman%27s%20one%20side%20print-t-shirt.jpg",
     imageNG:
-      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1577701799/strident/prod/merchandise/Limited%20edition%20March%20Of%20Plague%20Woman%27s%20one%20side%20print-t-shirt_ng.webp",
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/f_auto/v1577701799/strident/prod/merchandise/Limited%20edition%20March%20Of%20Plague%20Woman%27s%20one%20side%20print-t-shirt.jpg",
   },
   {
     name: "Embroidered logo",
@@ -96,7 +96,7 @@ const merchandises: Array<Merchandise> = [
     image:
       "https://res.cloudinary.com/dqvimfd8b/image/upload/v1577701975/strident/prod/merchandise/Embroidered%20logo-patch.jpg",
     imageNG:
-      "https://res.cloudinary.com/dqvimfd8b/image/upload/v1577701976/strident/prod/merchandise/Embroidered%20logo-patch_ng.webp",
+      "https://res.cloudinary.com/dqvimfd8b/image/upload/f_auto/v1577701976/strident/prod/merchandise/Embroidered%20logo-patch.jpg",
   },
 ];
 
