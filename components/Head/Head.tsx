@@ -22,7 +22,7 @@ const Head = ({ path, pageTitle, pageDescription }: Props) => (
     <meta name="og:description" content={pageDescription} />
     <meta
       name="og:image"
-      content="https://res.cloudinary.com/dqvimfd8b/image/upload/v1571406645/strident/prod/home/1_ng.webp"
+      content="https://res.cloudinary.com/dqvimfd8b/image/upload/f_auto/v1571406645/strident/prod/home/1.jpg"
     />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content={pageTitle} />

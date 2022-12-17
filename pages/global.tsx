@@ -22,7 +22,7 @@ const GlobalStyles = createGlobalStyle`
     font-family: "Special Elite", cursive;
     text-align: center;
     background-image: url(https://res.cloudinary.com/dqvimfd8b/image/upload/o_80/v1570734567/strident/static/background.jpg);
-    background-image: url(https://res.cloudinary.com/dqvimfd8b/image/upload/o_80/v1571164112/strident/static/background_ng.webp);
+    background-image: url(https://res.cloudinary.com/dqvimfd8b/image/upload/o_80,f_auto/v1571164112/strident/static/background.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: repeat;
