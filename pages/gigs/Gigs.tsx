@@ -21,13 +21,12 @@ const Gigs = () => (
       {gigs.map((gig) => (
         <MasonryBrick key={gig.name}>
           <Card>
-            <div>
-              <picture>
-                <source srcSet={gig.imageNG} type="image/webp" />
-                <source srcSet={gig.image} type="image/jpeg" />
-                <CardImage src={gig.image} alt="" />
-              </picture>
-            </div>
+                <CardImage src={gig.image} alt=""
+                           layout="intrinsic"
+                           objectFit="contain"
+                           width={800}
+                           height={400}
+                />
             <CardContent style={{ maxHeight: 202 }}>
               <HalfwayTab
                 href={gig.fbEvent}

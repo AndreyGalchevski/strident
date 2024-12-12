@@ -29,12 +29,12 @@ const Merch = () => (
       {merchandises.map((merchandise) => (
         <MasonryBrick key={`${merchandise.name}-${merchandise.type}`}>
           <Card>
-            <div>
-              <picture>
-                <source srcSet={merchandise.image} type="image/jpeg" />
-                <CardImage src={merchandise.image} alt="" />
-              </picture>
-            </div>
+                <CardImage src={merchandise.image} alt=""
+                           layout="intrinsic"
+                           objectFit="contain"
+                           width={800}
+                           height={400}
+                />
             <HalfwayTab
               href={merchandise.url}
               target="_blank"

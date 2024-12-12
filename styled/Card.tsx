@@ -1,4 +1,6 @@
+import Image from "next/image";
 import styled from "styled-components";
+
 
 export const Card = styled.div`
   position: relative;
@@ -34,7 +36,7 @@ export const CardAction = styled.div`
   border-bottom-right-radius: inherit;
 `;
 
-export const CardImage = styled.img({
+export const CardImage = styled(Image)({
   display: "block",
   borderTopLeftRadius: 30,
   borderTopRightRadius: 30,
