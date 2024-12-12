@@ -76,13 +76,14 @@ const Home = () => (
         <CardContent>
           <CardTitle>About</CardTitle>
           <ResponsiveText>
-            Strident is an Israeli Thrash Metal band with old-school riffing and
-            vibes from the 80s.
+            An Israeli Thrash Metal machine, Strident is heavily armed with
+            old school riffs and the 80s vibe.
           </ResponsiveText>
           <ResponsiveText>
-            We are not afraid to be ourselves and do what we want.
+            Since its inception in 2005, Strident has had three full-length
+            studio albums and a huge number of live performances.
           </ResponsiveText>
-          <ResponsiveText>Thrash Till Death</ResponsiveText>
+          <ResponsiveText>The band's debut LP entitled "On the Aim" came out in 2010...</ResponsiveText>
         </CardContent>
         <CardAction>
           <Link href="/about" style={{ color: theme.colors.white }}>
@@ -93,10 +94,10 @@ const Home = () => (
       <Card style={{ margin: 8, flex: 1 }}>
         <CardContent style={{ padding: 0, height: 343 }}>
           <iframe
-            title="STRIDENT - No Faith No War"
-            width="100%"
-            height="100%"
-            src="https://www.youtube.com/embed/3MpjGJpmG-Y"
+              title="STRIDENT - Hard-Bitten"
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/hcS-I-ECtNw"
             frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
@@ -145,8 +146,8 @@ const Home = () => (
           />
         </CardContent>
         <CardAction>
-          <Link href="/pages/albums" style={{ color: theme.colors.white }}>
-            More songs
+          <Link href="/albums" style={{ color: theme.colors.white }}>
+            More music
           </Link>
         </CardAction>
       </Card>

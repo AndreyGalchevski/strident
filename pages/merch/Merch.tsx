@@ -31,7 +31,6 @@ const Merch = () => (
           <Card>
             <div>
               <picture>
-                <source srcSet={merchandise.imageNG} type="image/webp" />
                 <source srcSet={merchandise.image} type="image/jpeg" />
                 <CardImage src={merchandise.image} alt="" />
               </picture>

@@ -34,7 +34,6 @@ const Members = () => (
           <Card>
             <div>
               <picture>
-                <source srcSet={member.imageNG} type="image/webp" />
                 <source srcSet={member.image} type="image/jpeg" />
                 <CardImage src={member.image} alt="" />
               </picture>
