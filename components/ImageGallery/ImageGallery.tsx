@@ -1,25 +1,30 @@
 import { useState, TouchEvent } from "react";
 import Image from "next/image";
 import styled from "styled-components";
-import {HomeImage} from "../../data/homeImages";
+import { HomeImage } from "../../data/homeImages";
 
 const GalleryContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
 `;
 
 const MainImageContainer = styled.div`
   position: relative;
   width: 100%;
-  max-width: 800px;
-  height: 400px;
+  height: auto;
+  max-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 `;
 
 const ImageWrapper = styled.div`
   position: relative;
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 `;
 
 const DesktopArrows = styled.div`
@@ -49,13 +54,34 @@ const ThumbnailContainer = styled.div`
   display: flex;
   gap: 10px;
   margin-top: 10px;
-  overflow-x: auto;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 10px;
+  scrollbar-width: thin;
+  scrollbar-color: #0070f3 transparent;
+
+  &::-webkit-scrollbar {
+    height: 8px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #0070f3;
+    border-radius: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
 `;
 
 const ThumbnailWrapper = styled.div`
   cursor: pointer;
   border: 2px solid transparent;
   transition: border-color 0.3s;
+  flex: 0 0 auto;
 
   &.active {
     border-color: #0070f3;
@@ -67,10 +93,10 @@ const ThumbnailImage = styled(Image)`
 `;
 
 interface Props {
-    images: HomeImage[];
+    images: HomeImage[]
 }
 
-export default function ImageGallery ({ images }: Props)  {
+export default function ImageGallery({ images }: Props) {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [startX, setStartX] = useState(0);
 
@@ -106,8 +132,10 @@ export default function ImageGallery ({ images }: Props)  {
                     <Image
                         src={images[currentIndex].src}
                         alt={images[currentIndex].alt}
-                        layout="fill"
-                        objectFit="cover"
+                        layout="intrinsic"
+                        objectFit="contain"
+                        width={800}
+                        height={400}
                     />
                 </ImageWrapper>
                 <DesktopArrows>
@@ -116,15 +144,15 @@ export default function ImageGallery ({ images }: Props)  {
                 </DesktopArrows>
             </MainImageContainer>
             <ThumbnailContainer>
-                {images.map((src, index) => (
+                {images.map((image, index) => (
                     <ThumbnailWrapper
-                        key={index}
+                        key={image.src}
                         className={index === currentIndex ? "active" : ""}
                         onClick={() => handleThumbnailClick(index)}
                     >
                         <ThumbnailImage
-                            src={src.thumbnail}
-                            alt={src.alt}
+                            src={image.thumbnail}
+                            alt={image.alt}
                             width={60}
                             height={60}
                         />
