@@ -1,27 +1,15 @@
 import styled from "styled-components";
-// import ImageGallery from "react-image-gallery";
 import Link from "next/link";
-// import "react-image-gallery/styles/css/image-gallery.css";
 
 import Container from "../styled/Container";
 import { Card, CardContent, CardTitle, CardAction } from "../styled/Card";
 import ResponsiveText from "../styled/ResponsiveText";
 import Header from "../components/Header";
-// import { homeImages } from "../utils/constants";
 import Head from "../components/Head";
 import gigs from "../data/gigs";
 import theme from "../utils/theme";
-
-const BannerContainer = styled.div({
-  marginBottom: 20,
-});
-
-const Banner = styled.img`
-  height: 74vh;
-  max-width: 90vw;
-  box-shadow: 0px 4px 8px 0px ${({ theme }) => theme.colors.black},
-    0px 6px 20px 0px ${({ theme }) => theme.colors.black};
-`;
+import ImageGallery from "../components/ImageGallery";
+import homeImages from "../data/homeImages";
 
 const Wrapper = styled.div`
   display: flex;
@@ -42,35 +30,12 @@ const Home = () => (
       pageTitle="Strident - Official Website"
       pageDescription="Strident - Israeli Thrash Metal"
     />
+
     <Header title="Home" />
-    <BannerContainer>
-      <picture>
-        <source
-          media="(max-width: 785px)"
-          srcSet="https://res.cloudinary.com/dqvimfd8b/image/upload/f_auto/v1572275145/strident/static/march-of-plague-banner-high.jpg"
-          type="image/webp"
-        />
-        <source
-          media="(max-width: 785px)"
-          srcSet="https://res.cloudinary.com/dqvimfd8b/image/upload/v1572274125/strident/static/march-of-plague-banner-high.jpg"
-          type="image/jpeg"
-        />
-        <source
-          media="(min-width: 786px)"
-          srcSet="https://res.cloudinary.com/dqvimfd8b/image/upload/f_auto/v1572275146/strident/static/march-of-plague-banner-wide.jpg"
-          type="image/webp"
-        />
-        <source
-          media="(min-width: 786px)"
-          srcSet="https://res.cloudinary.com/dqvimfd8b/image/upload/v1572274888/strident/static/march-of-plague-banner-wide.jpg"
-          type="image/jpeg"
-        />
-        <Banner
-          src="https://res.cloudinary.com/dqvimfd8b/image/upload/v1572274125/strident/static/march-of-plague-banner-high.jpg"
-          alt="New Album banner"
-        />
-      </picture>
-    </BannerContainer>
+
+    <ImageGallery images={homeImages} />
+
+
     <Wrapper>
       <Card style={{ margin: 8, flex: 1 }}>
         <CardContent>
@@ -111,7 +76,8 @@ const Home = () => (
         </CardAction>
       </Card>
     </Wrapper>
-    {/*<ImageGallery items={homeImages} />*/}
+
+
     <Wrapper style={{ marginTop: 20 }}>
       <Card style={{ margin: 8, flex: 1 }}>
         <CardContent>

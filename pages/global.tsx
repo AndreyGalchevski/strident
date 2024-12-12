@@ -22,10 +22,6 @@ const GlobalStyles = createGlobalStyle`
     text-align: center;
     background-color: ${theme.colors.grey};
   }
-
-  .image-gallery-right-nav, .image-gallery-left-nav, .image-gallery-play-button, .image-gallery-fullscreen-button {
-    background-color: transparent !important;
-  }
 `;
 
 export default GlobalStyles;

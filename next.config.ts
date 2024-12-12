@@ -1,9 +1,15 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-    eslint: {
-        dirs: ['pages', 'components', 'data', 'layout', 'styled', 'utils'],
-    }
+    images: {
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: 'res.cloudinary.com',
+                port: '',
+            },
+        ],
+    },
 };
 
 export default nextConfig;
