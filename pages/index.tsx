@@ -48,7 +48,7 @@ const Home = () => (
             Since its inception in 2005, Strident has had three full-length
             studio albums and a huge number of live performances.
           </ResponsiveText>
-          <ResponsiveText>The band's debut LP entitled "On the Aim" came out in 2010...</ResponsiveText>
+          <ResponsiveText>The band&#39;s debut LP entitled &#34;On the Aim&#34; came out in 2010...</ResponsiveText>
         </CardContent>
         <CardAction>
           <Link href="/about" style={{ color: theme.colors.white }}>

@@ -54,13 +54,13 @@ const About = () => {
           </ResponsiveText>
           <ResponsiveText>
             Since its inception in 2005, Strident has had three full-length
-            studio albums and a huge number of live performances. The band's
-            debut LP entitled "On the Aim" came out in 2010 after which the
+            studio albums and a huge number of live performances. The band&#39;s
+            debut LP entitled &#34;On the Aim&#34; came out in 2010 after which the
             band went on a semi-hiatus for almost a decade due to numerous
             lineup changes, but nevertheless Strident remained an active band
             playing big shows: opening for Overkill and Nervosa, to name a
-            few. The second record, “March of Plague”, was released in 2019
-            through the Italian label "Punishment 18 Records". It has a solid
+            few. The second record, &#34;March of Plague&#34;, was released in 2019
+            through the Italian label &#34;Punishment 18 Records&#34;. It has a solid
             modern sound and it has been selling all over the world.
           </ResponsiveText>
           <ResponsiveText>
@@ -69,7 +69,7 @@ const About = () => {
             Alkalay, Andrey Galchevski, Artyom Apekishev took over lead
             guitar, drums and bass respectively. With this line-up, the band
             went on 3 European tours (with Necronomicon, Archaic and Jet
-            Jaguar) and released the third album, "Paranoia of the Tyrant",
+            Jaguar) and released the third album, &#34;Paranoia of the Tyrant&#34;,
             which has received great praise both in live shows and in media
             spheres.
           </ResponsiveText>
