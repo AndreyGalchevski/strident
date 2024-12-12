@@ -1,4 +1,7 @@
 import styled from "styled-components";
+import { Montserrat } from 'next/font/google'
+
+const montserrat = Montserrat({ subsets: ['latin'] })
 
 import Container from "../../styled/Container";
 import { Masonry, MasonryBrick } from "../../styled/Masonry";
@@ -8,7 +11,6 @@ import lyrics from "../../data/lyrics";
 import Head from "../../components/Head";
 
 const Text = styled.pre({
-  fontFamily: '"Special Elite", cursive',
   fontSize: "13px",
   lineHeight: 1.5,
 });
@@ -27,7 +29,7 @@ const Lyrics = () => (
           <Card>
             <CardTitle style={{ paddingTop: 20 }}>{lyric.name}</CardTitle>
             <CardContent style={{ paddingTop: 0 }}>
-              <Text>{lyric.text}</Text>
+              <Text className={montserrat.className}>{lyric.text}</Text>
             </CardContent>
           </Card>
         </MasonryBrick>
