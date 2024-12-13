@@ -10,7 +10,7 @@ export interface Gig {
 
 const gigs: Array<Gig> = [
   {
-    name: '20th Anniversary',
+    name: 'Festikasach',
     venue: 'Yellow Submarine',
     address: 'Ha-Rekhavim 11',
     city: 'Jerusalem',

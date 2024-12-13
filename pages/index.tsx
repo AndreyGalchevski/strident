@@ -10,6 +10,7 @@ import gigs from "../data/gigs";
 import theme from "../utils/theme";
 import ImageGallery from "../components/ImageGallery";
 import homeImages from "../data/homeImages";
+import {formatDate} from "../utils/general";
 
 const Wrapper = styled.div`
   display: flex;
@@ -59,10 +60,10 @@ const Home = () => (
       <Card style={{ margin: 8, flex: 1 }}>
         <CardContent style={{ padding: 0, height: 343 }}>
           <iframe
-              title="STRIDENT - Hard-Bitten"
+              title="Strident - Tour Documentary"
               width="100%"
               height="100%"
-              src="https://www.youtube.com/embed/hcS-I-ECtNw"
+              src="https://www.youtube.com/embed/-idT0mTnQTg"
             frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
@@ -84,7 +85,7 @@ const Home = () => (
           <CardTitle>Gigs</CardTitle>
           {latestGigs.map((gig) => (
             <div key={gig.name}>
-              <p>{new Date(gig.date).toDateString()}</p>
+              <p>{formatDate(new Date(gig.date))}</p>
               <p>
                 {gig.name} - {gig.venue}
               </p>
