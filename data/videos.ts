@@ -5,6 +5,14 @@ export interface Video {
 
 const videos: Array<Video> = [
   {
+    name: 'STRIDENT - Tour Documentary',
+    url: 'https://www.youtube.com/embed/-idT0mTnQTg',
+  },
+  {
+    name: 'STRIDENT - Poserist (Official Lyric Video)',
+    url: 'https://www.youtube.com/embed/IrBwc0HURh8',
+  },
+  {
     name: 'STRIDENT - War (Live At Woko Klub)',
     url: 'https://www.youtube.com/embed/FKdu9rHsrY0',
   },
