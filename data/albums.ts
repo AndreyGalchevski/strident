@@ -11,6 +11,11 @@ const albums: Album[] = [
     year: 2023,
   },
   {
+    name: 'Paranoia of the Tyrant',
+    url: 'https://open.spotify.com/embed/album/24it76wRmx6A2p3e3QxUBB',
+    year: 2023,
+  },
+  {
     name: 'March Of Plague',
     url: 'https://open.spotify.com/embed/album/4FwG4KugWjQTZRD1XMa8mF',
     year: 2019,

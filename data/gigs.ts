@@ -10,6 +10,56 @@ export interface Gig {
 
 const gigs: Array<Gig> = [
   {
+    name: '20th Anniversary',
+    venue: 'Yellow Submarine',
+    address: 'Ha-Rekhavim 11',
+    city: 'Jerusalem',
+    date: '2024-12-26T18:30:00Z',
+    fbEvent: 'https://www.facebook.com/events/8470402013043601/',
+    image:
+        'https://res.cloudinary.com/dqvimfd8b/image/upload/v1734092512/strident/prod/gigs/464911416_122179474496185595_1773948077982607932_n.jpg',
+  },
+  {
+    name: '20th Anniversary',
+    venue: 'Tmuna',
+    address: 'Soncino 8',
+    city: 'Tel Aviv',
+    date: '2024-12-19T19:30:00Z',
+    fbEvent: 'https://www.facebook.com/events/1133389321788229/',
+    image:
+        'https://res.cloudinary.com/dqvimfd8b/image/upload/v1734092334/strident/prod/gigs/465661870_1073982204731714_8854821807713072333_n.jpg',
+  },
+  {
+    name: 'End Of Summer',
+    venue: 'Wunderbar',
+    address: 'Hativat Golani 16',
+    city: 'Haifa',
+    date: '2024-08-29T17:00:00Z',
+    fbEvent: 'https://www.facebook.com/events/806269561490756/',
+    image:
+        'https://res.cloudinary.com/dqvimfd8b/image/upload/v1734091928/strident/prod/gigs/454289199_1085501093411932_8458170157034304011_n.jpg',
+  },
+  {
+    name: 'Strident and Xoter LIVE at Blaze Rock Bar - Jerusalem',
+    venue: 'Blaze',
+    address: 'Hillel 23',
+    city: 'Jerusalem',
+    date: '2024-07-02T18:00:00Z',
+    fbEvent: 'https://www.facebook.com/events/1394363498622875/',
+    image:
+        'https://res.cloudinary.com/dqvimfd8b/image/upload/v1734091805/strident/prod/gigs/449054324_974605831336019_3437938737204879629_n.jpg',
+  },
+  {
+    name: 'STRIDENT+INLABYRINTH+PURIFICATION PATH+חיל פושטקים May 11 Haifa',
+    venue: 'Z-City club',
+    address: 'Natanzon 10',
+    city: 'Haifa',
+    date: '2024-05-11T17:00:00Z',
+    fbEvent: 'https://www.facebook.com/events/946913393475415',
+    image:
+        'https://res.cloudinary.com/dqvimfd8b/image/upload/v1734091454/strident/prod/gigs/437111109_924345409695395_1616834369454712198_n.jpg',
+  },
+  {
     name: 'PsychoWard Vol.Oct-7th',
     venue: 'Gagarin',
     address: 'Kibbutz Galuyot 13',
@@ -18,6 +68,16 @@ const gigs: Array<Gig> = [
     fbEvent: 'https://facebook.com/events/s/psychoward-voloct-7th/1083748119434929',
     image:
         'https://res.cloudinary.com/dqvimfd8b/image/upload/v1704356380/strident/prod/gigs/co1zr8ucfjn6ue7kh97m.jpg',
+  },
+  {
+    name: 'Metal shows at Blaze',
+    venue: 'Blaze',
+    address: 'Hillel 23',
+    city: 'Jerusalem',
+    date: '2023-11-25T18:30:00Z',
+    fbEvent: 'https://www.facebook.com/events/1531605410989826/',
+    image:
+        'https://res.cloudinary.com/dqvimfd8b/image/upload/v1734091222/strident/prod/gigs/404266916_852669533527609_2588624357403970706_n.jpg',
   },
   {
     name: 'Screaming Culture Aug 2023',
